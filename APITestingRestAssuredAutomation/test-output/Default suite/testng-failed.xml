@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenTesting.TC003_DDT_AddNewEmployees_UsingExcelSheet">
+      <class name="restapi.TC_all">
         <methods>
-          <include name="postNewEmployees"/>
+          <include name="deleteRequest"/>
+          <include name="postRequest"/>
+          <include name="setupLogging"/>
+          <include name="putRequest"/>
+          <include name="patchRequest"/>
         </methods>
-      </class> <!-- dataDrivenTesting.TC003_DDT_AddNewEmployees_UsingExcelSheet -->
+      </class> <!-- restapi.TC_all -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
